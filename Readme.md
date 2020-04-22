@@ -71,10 +71,14 @@ kubectl apply -f .
 ```
 
 **Mostrar pods,services e deployments filtrando por seletor**
-```kubectl get po,svc,deploy --selector app=docusaurus```
+```sh
+kubectl get po,svc,deploy --selector app=docusaurus
+```
 
 **Escalando**
-```kubectl scale --replicas=10 deployment docusaurus```
+```sh
+kubectl scale --replicas=10 deployment docusaurus
+```
 
 **Acompanhando**
 ```sh
