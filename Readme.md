@@ -1,7 +1,24 @@
  
-# Aplicação Docusaurus 
+# Material suplementar para Palestra de Kubernetes
 
-## Explicação dos arquivos de configuração 
+Neste repositório encontrara alguns exemplos para treinar seu conhecimento referente a Kubernetes.
+Apresentaremos três exemplos.
+
+* Docusaurus - Website e blog
+* NGinx - HTTP Server/Proxy
+* PostgreSQL - Banco Opensource Relacional
+
+| Serviços | Diretórios |
+| ------   | ------     |
+| Docusaurus | ./docusaurus|
+| NGinx | ./nginx |
+| PostgreSql | ./postgresql
+
+Na raiz do projeto encontra-se os arquivos originais referente ao projeto [Docusaurus](https://docusaurus.io/)
+
+
+## Explicação dos arquivos de configuração
+A idéia é ter esse documento como base pois a idéia é detalher e tirar as dúvidas na palestra.
 
 **Deployment.yaml**
 
