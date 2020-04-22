@@ -104,3 +104,12 @@ kubectl rollout undo deployment.v1.apps/docusaurus
 ```sh
 kubectl describe deployment docusaurus
 ```
+
+**Verificando pods,services,deployments com o Seletor docusaurus**
+```sh
+kubectl get po,svc,deploy --selector app=docusaurus
+```
+**Apagando pods,services,deployments com o Seletor docusaurus**
+```sh
+kubectl delete po,svc,deploy --selector app=docusaurus
+```
